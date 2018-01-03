@@ -1088,7 +1088,7 @@ th {
   left: 54px;
 }
 .isStuck .navbar-brand small {
-  margin-top: -5px;
+  margin-top: 10px;
 }
 .isStuck .navbar-nav > li > a {
   padding: 20px 18px 20px;
