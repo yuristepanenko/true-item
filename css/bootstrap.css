@@ -5565,8 +5565,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   padding-left: 73px;
   position: relative;
+  background: url(../images/TI_logo_big-1.png) no-repeat;
+  left: 0px;
+  top: 2px;
+  width: 324px;
+  height: 71px; 
 }
-.navbar-brand:before {
+/*.navbar-brand:before {
   content: "\f0ac";
   position: absolute;
   left: 0px;
@@ -5582,6 +5587,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   width: 1px;
   height: 74px;
   background: #f78f20;
+}*/
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  font-weight: 20px;
 }
 .navbar-brand a:hover,
 .navbar-brand a:focus {
@@ -5591,15 +5600,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (max-width: 991px) {
   .navbar-brand {
     padding-left: 68px;
+    background: url(../images/TI_logo_small-1.png) no-repeat;
+      left: 0px;
+    top: 2px;
+    width: 244px;
+    height: 53px;
   }
-  .navbar-brand:before {
+/*  .navbar-brand:before {
     font-size: 50px;
     top: -7px;
   }
   .navbar-brand:after {
     height: 45px;
     left: 54px;
-  }
+  }*/
 }
 @media (min-width: 768px) {
   .navbar-nav {
