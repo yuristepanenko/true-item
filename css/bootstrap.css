@@ -5565,11 +5565,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   padding-left: 73px;
   position: relative;
-  background: url(../images/TI_logo_big-1.png) no-repeat;
+  background: url(../images/TI_logo_small-1.png) no-repeat;
   left: 0px;
-  top: 2px;
-  width: 324px;
-  height: 71px; 
+  top: 10px;
+  width: 244px;
+  height: 53px;
 }
 /*.navbar-brand:before {
   content: "\f0ac";
@@ -5601,8 +5601,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-brand {
     padding-left: 68px;
     background: url(../images/TI_logo_small-1.png) no-repeat;
-      left: 0px;
-    top: 2px;
+    left: 0px;
+    top: 0px;
     width: 244px;
     height: 53px;
   }
