@@ -138,7 +138,7 @@ include('js/jquery.easing.1.3.js');
 (function ($) {
     var o = document.getElementById("google-map");
     if (o) {
-        include('https://maps.googleapis.com/maps/api/js?key=AIzaSyCAEej9mlUCigYjmIvWETgQlHZhiJ6btDI&callback=initMap');
+        include('//maps.googleapis.com/maps/api/js?key=AIzaSyCAEej9mlUCigYjmIvWETgQlHZhiJ6btDI&callback=initMap');
         // //maps.google.com/maps/api/js?sensor=false
         include('js/jquery.rd-google-map.js');
 
