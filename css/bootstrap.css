@@ -2579,10 +2579,12 @@ ol li a {
 }
 .weare-list li {
   max-width: 600px;
+  font-size: 18px;
 }
 
 .weare-list li a {
   position: relative;
+  font-size: 18px;
   padding-left: 28px;
   padding-top: 6px;
   padding-bottom: 8.4px;
@@ -2594,6 +2596,7 @@ ol li a {
   position: absolute;
   content: '\f058';
   font-family: 'FontAwesome';
+  font-size: 20px;
   color: #f78f20;
   left: 1px;
   top: 6px;
@@ -2603,15 +2606,15 @@ ol li a {
   transition: 0.2s;
 }
 .weare-list li a.yes:hover:before {
-  left: 5px;
   color: #63cd54;
 }
 
 
 .weare-list li a.no:before {
   position: absolute;
-  content: '\f057';
+  content: '\f05e';
   font-family: 'FontAwesome';
+  font-size: 20px;
   color: #ff0000;
   left: 1px;
   top: 6px;
