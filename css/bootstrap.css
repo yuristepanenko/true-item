@@ -2567,6 +2567,10 @@ ol li a {
 .marked-list2_mod + * {
   margin-top: 20px;
 }
+
+
+/*================    What we do list     =================*/
+
 .icon-list li {
   padding-left: 162px;
   position: relative;
@@ -2575,7 +2579,7 @@ ol li a {
   position: absolute;
   content: '\f0c0';
   font-family: 'FontAwesome';
-  font-size: 50px;
+  font-size: 59px;
   color: #ffffff;
   padding-top: 30px;
   padding-left: 38px;
@@ -2584,6 +2588,7 @@ ol li a {
   background: #f78f20;
   left: 15px;
   top: 2px;
+  margin-bottom: 112px;
 }
 .icon-list li h5 {
   margin-top: -2px;
@@ -2594,22 +2599,34 @@ ol li a {
 .icon-list li a:hover {
   color: #f78f20;
 }
-.icon-list li:nth-child(n+4) {
+.icon-list li:nth-child(n+2) {
   margin-top: 34px;
+
 }
+
+.icon-list li:nth-child(1) {
+  margin-top: 34px;
+
+}
+
+/* ---- ICON: HIGH LOAD APPLICATIONS DESIGN ----- */
+.icon-list li:nth-child(1):before {
+  content: '\f085';
+}
+
+/* ---- ICON: SWAP PROJECTS SUPPORT ----- */
 .icon-list li:nth-child(2):before {
   content: '\f109';
-  font-size: 59px;
-  padding-top: 20px;
-  padding-left: 30px;
 }
+
+/* ---- ICON: CONSULTING IN OPTIMISATION OF BSS SOLUTION ----- */
 .icon-list li:nth-child(3):before {
-  content: '\f1d8';
+  content: '\f126';
 }
+
+/* ---- ICON: SOFTWARE TESTING  ----- */
 .icon-list li:nth-child(4):before {
-  content: '\f091';
-  padding-top: 28px;
-  padding-left: 40px;
+  content: '\f121';
 }
 .icon-list li:nth-child(5):before {
   content: '\f16b';
