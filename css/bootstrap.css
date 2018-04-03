@@ -2622,6 +2622,7 @@ ol li a {
 /* ---- ICON: CONSULTING IN OPTIMISATION OF BSS SOLUTION ----- */
 .icon-list li:nth-child(3):before {
   content: '\f126';
+  padding-left: 50px;
 }
 
 /* ---- ICON: SOFTWARE TESTING  ----- */
