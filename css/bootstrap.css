@@ -2595,10 +2595,10 @@ ol li a {
   position: absolute;
   content: '\f058';
   font-family: 'FontAwesome';
-  font-size: 33px;
+  font-size: 20px;
   color: #f78f20;
-  left: 0px;
-  top: 0px;
+  left: 1px;
+  top: 5px;
   -moz-transition: 0.2s;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
@@ -2613,10 +2613,10 @@ ol li a {
   position: absolute;
   content: '\f05e';
   font-family: 'FontAwesome';
-  font-size: 33px;
+  font-size: 20px;
   color: #ff0000;
-  left: 0px;
-  top: 0px;
+  left: 1px;
+  top: 5px;
   -moz-transition: 0.2s;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
