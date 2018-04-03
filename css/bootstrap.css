@@ -2578,7 +2578,6 @@ ol li a {
 
 }
 .weare-list li {
-  max-width: 600px;
   font-size: 18px;
 }
 
@@ -2596,10 +2595,10 @@ ol li a {
   position: absolute;
   content: '\f058';
   font-family: 'FontAwesome';
-  font-size: 20px;
+  font-size: 33px;
   color: #f78f20;
-  left: 1px;
-  top: 6px;
+  left: 0px;
+  top: 0px;
   -moz-transition: 0.2s;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
@@ -2614,10 +2613,10 @@ ol li a {
   position: absolute;
   content: '\f05e';
   font-family: 'FontAwesome';
-  font-size: 20px;
+  font-size: 33px;
   color: #ff0000;
-  left: 1px;
-  top: 6px;
+  left: 0px;
+  top: 0px;
   -moz-transition: 0.2s;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
