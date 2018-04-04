@@ -2575,27 +2575,30 @@ ol li a {
 .weare-list {
   display: block;
   margin-top: -3px;
-
 }
 .weare-list li {
   font-size: 18px;
 }
 
+.weare-list h5 {
+  color: #ffffff;
+}
+
 .weare-list li a {
   position: relative;
-  font-size: 18px;
   padding-left: 28px;
   padding-top: 6px;
   padding-bottom: 8.4px;
   display: inline-block;
   cursor: default;
+  color: #ffffff;
 }
 
-.weare-list li a:before {
+.weare-list li a.yes:before {
   position: absolute;
   content: '\f058';
   font-family: 'FontAwesome';
-  font-size: 20px;
+  font-size: 18px;
   color: #f78f20;
   left: 1px;
   top: 5px;
@@ -2608,14 +2611,26 @@ ol li a {
   color: #63cd54;
 }
 
+.weare-list li a.no {
+  position: relative;
+  right: 25px;
+  float:right;
+}
 
-.weare-list li a.no:before {
+.weare-list h5.no {
+  position: absolute;
+  float:right;
+  top: -25px;
+  right: 25px;
+}
+
+.weare-list li a.no::after {
   position: absolute;
   content: '\f05e';
   font-family: 'FontAwesome';
-  font-size: 20px;
+  font-size: 18px;
   color: #ff0000;
-  left: 1px;
+  right: -20px;
   top: 5px;
   -moz-transition: 0.2s;
   -webkit-transition: 0.2s;
@@ -2888,7 +2903,7 @@ address {
   margin-top: 16px;
   font-weight: 600;
   color: #333333;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 24px;
   font-style: normal;
 }
@@ -2896,7 +2911,7 @@ address {
   margin-top: 16px;
   max-width: 335px;
   line-height: 0.9;
-  color: #8b8b8b;
+  color: #535353;
 }
 .addr1 dl {
   padding-left: 0;
@@ -2931,7 +2946,7 @@ address {
   text-decoration: underline;
 }
 .addr1 .mail dd a:hover {
-  color: #8b8b8b;
+  color: #535353;
   text-decoration: none;
 }
 @media (max-width: 991px) {
@@ -4386,7 +4401,7 @@ select[multiple].form-group-lg .form-control {
   padding: 23px 14px;
   font-size: 18px;
   line-height: 19px;
-  border-radius: 30px;
+  border-radius: 20px;
   -moz-transition: 0.2s all ease;
   -webkit-transition: 0.2s all ease;
   -o-transition: 0.2s all ease;

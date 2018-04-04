@@ -42,20 +42,20 @@
 .mailform label textarea {
   display: block;
   width: 100%;
-  margin: 0;
+  margin: 3px;
   -webkit-appearance: none;
   outline: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  padding: 22px 20px 22px 28px;
+  padding: 14px 12px 14px 20px;
   line-height: 21px;
-  color: #8b8b8b;
+  color: #535353;
   background: #e8e7e7;
   border: 1px solid #e8e7e7;
   font-weight: 300;
-  -webkit-border-radius: 33px;
-  -moz-border-radius: 33px;
-  border-radius: 33px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
 }
 .mailform label input:-moz-placeholder,
 .mailform label select:-moz-placeholder,
