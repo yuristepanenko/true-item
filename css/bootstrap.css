@@ -1203,8 +1203,8 @@ th {
 }
 .lt-ie9 .thumb:hover .thumb_overlay {
   background: none;
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff78f20', endColorstr='#fff78f20');
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff78f20', endColorstr='#fff78f20');
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f78f20', endColorstr='#f78f20');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f78f20', endColorstr='#f78f20');
   zoom: 1;
 }
 .thumb:hover .thumb_overlay:before {
@@ -2916,6 +2916,7 @@ address {
 .addr1 dl {
   padding-left: 0;
   margin-top: 0px;
+  padding-bottom: 5px;
 }
 .addr1 dl dt,
 .addr1 dl dd {
@@ -2936,7 +2937,7 @@ address {
   margin-top: 0;
 }
 .addr1 .mail dt {
-  width: 15%;
+  width: 27%;
 }
 .addr1 .mail dd {
   font-size: 14px;
