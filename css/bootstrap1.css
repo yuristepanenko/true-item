@@ -2576,17 +2576,6 @@ ol li a {
   display: block;
   margin-top: -3px;
 }
-.weare-list li {
-  font-size: 18px;
-}
-
-.weare-list h5 {
-  color: #ffffff;
-}
-
-.normal-color{
-  color: #8b8b8b;
-}
 
 .weare-list li a {
   position: relative;
@@ -2595,7 +2584,6 @@ ol li a {
   padding-bottom: 8.4px;
   display: inline-block;
   cursor: default;
-  color: #ffffff;
 }
 
 .weare-list li a.yes:before {
