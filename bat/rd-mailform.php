@@ -1,6 +1,6 @@
 <?php
 
-$recipients = 'stmechanus@gmail.com, nyqudev@gmail.com, v.schelkunoff@gmail.com, ilko725@gmail.com';
+$recipients = 'yuri.stepanenko@true-item.com, stepanenko.yuri@gmail.com';
 //$recipients = '#';
 
 try {

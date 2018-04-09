@@ -19,7 +19,7 @@ div.ti-lang {
   z-index: 999999999;
   width: 43px;
   height: 43px;
-  background: #f78f20;
+  background: #ff6b00;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -41,7 +41,7 @@ div.ti-lang {
   color: #ffffff;
 }
 .ti-lang-form_toggle:hover {
-  color: #f78f20;
+  color: #ff6b00;
   background: #ffffff;
 }
 .ti-lang-form_toggle.active {
