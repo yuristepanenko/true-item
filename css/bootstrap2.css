@@ -2578,15 +2578,31 @@ ol li a {
 /*================    Who we are          =================*/
 
 .weare-list {
+  position: relative;
   display: block;
-  margin-top: -3px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  left: 100px;
 }
+
+@media (min-width: 768px) {
+  .weare-list {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    left: 100px;
+  }
+}
+
 .weare-list li {
   font-size: 14px;
 }
 
 .weare-list h5 {
   color: #ffffff;
+  margin-bottom: 6px;
+  margin-top: 12px;
 }
 
 .normal-color{
@@ -2620,16 +2636,6 @@ ol li a {
   color: #63cd54;
 }
 
-.weare-list li a.no {
-  position: relative;
-  left: 105px;
-}
-
-.weare-list h5.no {
-  position: relative;
-  left:100px;
-  top: 5px;
-}
 
 .weare-list li a.no::before {
   position: absolute;
