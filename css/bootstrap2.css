@@ -2639,7 +2639,7 @@ ol li a {
 
 .weare-list li a.no::before {
   position: absolute;
-  content: '\\f057'; /* \f05e */
+  content: '\f057'; /* \f05e */
   font-family: 'FontAwesome';
   font-size: 18px;
   color: #ff6b00;
