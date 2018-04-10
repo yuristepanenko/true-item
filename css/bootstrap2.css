@@ -1982,10 +1982,11 @@ h2,
 h3,
 .h3 {
   font-size: 36px;
-  color: #ffffff;
 }
 
-.parallax h3, h4, h5 {
+.parallax h3, 
+.parallax h4, 
+.parallax h5 {
   color: #ffffff;
 }
 
@@ -2992,10 +2993,20 @@ article * + .btn-link {
 .article2 {
   margin-top: 79px;
 }
-.article1 time,
-.article2 time {
+.article1 time {
   margin-top: -3px;
   font-size: 24px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #333333;
+  white-space: nowrap;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.article2 time {
+  margin-top: 0px;
+  font-size: 20px;
   line-height: 1.2;
   font-weight: 600;
   color: #333333;

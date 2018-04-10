@@ -1982,7 +1982,6 @@ h2,
 h3,
 .h3 {
   font-size: 36px;
-  color: #ffffff;
 }
 @media (max-width: 991px) {
   h3,
@@ -2574,13 +2573,8 @@ ol li a {
   display: block;
   margin-top: -3px;
 }
-.weare-list li {
-  font-size: 18px;
-}
 
-.weare-list h5 {
-  color: #ffffff;
-}
+
 
 .normal-color{
   color: #8b8b8b;
@@ -2593,7 +2587,6 @@ ol li a {
   padding-bottom: 8.4px;
   display: inline-block;
   cursor: default;
-  color: #ffffff;
 }
 
 .weare-list li a.yes:before {
@@ -2615,24 +2608,22 @@ ol li a {
 
 .weare-list li a.no {
   position: relative;
-  right: 25px;
-  float:right;
+  left: 105px;
 }
 
 .weare-list h5.no {
-  position: absolute;
-  float:right;
-  top: -25px;
-  right: 25px;
+  position: relative;
+  left:100px;
+  top: 5px;
 }
 
-.weare-list li a.no::after {
+.weare-list li a.no::before {
   position: absolute;
   content: '\f05e';
   font-family: 'FontAwesome';
   font-size: 18px;
   color: #ff0000;
-  right: -20px;
+  left: 1px;
   top: 5px;
   -moz-transition: 0.2s;
   -webkit-transition: 0.2s;
@@ -2649,7 +2640,6 @@ ol li a {
 .weare-list_mod + * {
   margin-top: 20px;
 }
-
 
 /*================    What we do list     =================*/
 
