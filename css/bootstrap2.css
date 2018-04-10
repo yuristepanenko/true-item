@@ -1984,6 +1984,12 @@ h3,
   font-size: 36px;
   color: #ffffff;
 }
+
+.parallax h3, h4, h5 {
+  color: #ffffff;
+}
+
+
 @media (max-width: 991px) {
   h3,
   .h3 {
@@ -2575,7 +2581,7 @@ ol li a {
   margin-top: -3px;
 }
 .weare-list li {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .weare-list h5 {
@@ -2615,24 +2621,22 @@ ol li a {
 
 .weare-list li a.no {
   position: relative;
-  right: 25px;
-  float:right;
+  left: 105px;
 }
 
 .weare-list h5.no {
-  position: absolute;
-  float:right;
-  top: -25px;
-  right: 25px;
+  position: relative;
+  left:100px;
+  top: 5px;
 }
 
-.weare-list li a.no::after {
+.weare-list li a.no::before {
   position: absolute;
   content: '\f05e';
   font-family: 'FontAwesome';
   font-size: 18px;
   color: #ff0000;
-  right: -20px;
+  left: 1px;
   top: 5px;
   -moz-transition: 0.2s;
   -webkit-transition: 0.2s;
@@ -2984,10 +2988,12 @@ article h5 + * {
 article * + .btn-link {
   margin-top: 19px;
 }
-.article1 {
+.article1,
+.article2 {
   margin-top: 79px;
 }
-.article1 time {
+.article1 time,
+.article2 time {
   margin-top: -3px;
   font-size: 24px;
   line-height: 1.2;
@@ -2997,12 +3003,19 @@ article * + .btn-link {
   padding-left: 0;
   display: inline-block;
 }
-.article1 time:before {
+.article1 time:before,
+.article2 time:before {
   display: none;
 }
-.article1 + article {
+.article1 + article,
+.article2 + article {
   margin-top: 27px;
 }
+
+.article2 {
+  position: relative;
+}
+
 .iframe {
   width: 515px;
   height: 293px;
@@ -6516,6 +6529,22 @@ a.badge:focus {
 .media:first-child {
   margin-top: 0;
 }
+
+/* --- New hystory ---*/
+
+.hystory-body {
+  zoom: 1;
+  overflow: hidden;
+}
+.hystory-body, 
+.hystory-left > time,
+.hystory-body h5 {
+  color: #ffffff;
+}
+
+/* ---- New hystory end ---*/
+
+
 .media,
 .media-body {
   zoom: 1;
@@ -6528,6 +6557,7 @@ a.badge:focus {
   display: block;
 }
 .media-right,
+.hystory-left,
 .media > .pull-right {
   padding-left: 10px;
 }
@@ -6536,6 +6566,7 @@ a.badge:focus {
   max-width: none;
 }
 .media-left,
+.hystory-left,
 .media > .pull-left {
   padding-right: 11px;
 }
@@ -6545,14 +6576,18 @@ a.badge:focus {
 }
 .media-left,
 .media-right,
-.media-body {
+.media-body,
+.hystory-body, 
+.hystory-left {
   display: table-cell;
   vertical-align: top;
 }
 @media (max-width: 450px) {
   .media-left,
   .media-right,
-  .media-body {
+  .media-body,
+  .hystory-left, 
+  .hystory-body {
     display: block;
     width: 100%;
   }

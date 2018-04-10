@@ -34,6 +34,10 @@
             nav.createListeners();
         },
 
+        dothis: function () {
+            afert('ffff');
+        },
+
         createDOM: function () {
             var nav = this;
 
@@ -74,6 +78,9 @@
                         switch (o[j].tagName.toLowerCase()) {
                             case 'a':
                                 var link = o[j].cloneNode(true);
+                                //--- Yura: close on cklick -----
+                                link.setAttribute("onClick", "RDMobileMenu.dothis();");
+                                //---- Yura ----
                                 item.appendChild(link);
                                 break;
                             case 'ul':
@@ -208,7 +215,8 @@
         },
 
         touchend: function (e) {
-            var menu = $('.' + settings.menuClass);
+
+            alert(e.toString());
 
             menu.stop().animate({
                 scrollTop: menu.scrollTop() + (dir ? 100 : -100)
