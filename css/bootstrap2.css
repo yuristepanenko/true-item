@@ -2621,7 +2621,7 @@ ol li a {
 
 .weare-list li a.yes:before {
   position: absolute;
-  content: '\e084'; /* \f058 */
+  content: '\f058'; 
   font-family: 'FontAwesome';
   font-size: 18px;
   color: #ff6b00;
@@ -2639,10 +2639,10 @@ ol li a {
 
 .weare-list li a.no::before {
   position: absolute;
-  content: '\e083'; /* \f05e */
+  content: '\\f057'; /* \f05e */
   font-family: 'FontAwesome';
   font-size: 18px;
-  color: #ff0000;
+  color: #ff6b00;
   left: 1px;
   top: 5px;
   -moz-transition: 0.2s;
