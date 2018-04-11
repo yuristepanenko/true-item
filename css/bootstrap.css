@@ -1983,6 +1983,14 @@ h3,
 .h3 {
   font-size: 36px;
 }
+
+.parallax h3, 
+.parallax h4, 
+.parallax h5 {
+  color: #ffffff;
+}
+
+
 @media (max-width: 991px) {
   h3,
   .h3 {
@@ -2570,27 +2578,50 @@ ol li a {
 /*================    Who we are          =================*/
 
 .weare-list {
+  position: relative;
   display: block;
-  margin-top: -3px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  left: 100px;
 }
 
+@media (min-width: 768px) {
+  .weare-list {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    left: 100px;
+  }
+}
 
+.weare-list li {
+  font-size: 14px;
+}
+
+.weare-list h5 {
+  color: #ffffff;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
 
 .normal-color{
   color: #8b8b8b;
 }
 
 .weare-list li a {
+  position: relative;
   padding-left: 28px;
   padding-top: 6px;
   padding-bottom: 8.4px;
   display: inline-block;
   cursor: default;
+  color: #ffffff;
 }
 
 .weare-list li a.yes:before {
   position: absolute;
-  content: '\e013'; /* \f058 */
+  content: '\f058';
   font-family: 'FontAwesome';
   font-size: 18px;
   color: #ff6b00;
@@ -2605,23 +2636,13 @@ ol li a {
   color: #63cd54;
 }
 
-.weare-list li a.no {
-  position: relative;
-  left: 105px;
-}
-
-.weare-list h5.no {
-  position: relative;
-  left:100px;
-  top: 5px;
-}
 
 .weare-list li a.no::before {
   position: absolute;
-  content: '\e014'; /* \f05e */
+  content: '\f057';
   font-family: 'FontAwesome';
   font-size: 18px;
-  color: #ff0000;
+  color: #ff6b00;
   left: 1px;
   top: 5px;
   -moz-transition: 0.2s;
@@ -2639,6 +2660,7 @@ ol li a {
 .weare-list_mod + * {
   margin-top: 20px;
 }
+
 
 /*================    What we do list     =================*/
 
@@ -2973,7 +2995,8 @@ article h5 + * {
 article * + .btn-link {
   margin-top: 19px;
 }
-.article1 {
+.article1,
+.article2 {
   margin-top: 79px;
 }
 .article1 time {
@@ -2986,12 +3009,30 @@ article * + .btn-link {
   padding-left: 0;
   display: inline-block;
 }
-.article1 time:before {
+
+.article2 time {
+  margin-top: 0px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #333333;
+  white-space: nowrap;
+  padding-left: 0;
+  display: inline-block;
+}
+.article1 time:before,
+.article2 time:before {
   display: none;
 }
-.article1 + article {
+.article1 + article,
+.article2 + article {
   margin-top: 27px;
 }
+
+.article2 {
+  position: relative;
+}
+
 .iframe {
   width: 515px;
   height: 293px;
@@ -6505,6 +6546,22 @@ a.badge:focus {
 .media:first-child {
   margin-top: 0;
 }
+
+/* --- New hystory ---*/
+
+.hystory-body {
+  zoom: 1;
+  overflow: hidden;
+}
+.hystory-body, 
+.hystory-left > time,
+.hystory-body h5 {
+  color: #ffffff;
+}
+
+/* ---- New hystory end ---*/
+
+
 .media,
 .media-body {
   zoom: 1;
@@ -6517,6 +6574,7 @@ a.badge:focus {
   display: block;
 }
 .media-right,
+.hystory-left,
 .media > .pull-right {
   padding-left: 10px;
 }
@@ -6525,6 +6583,7 @@ a.badge:focus {
   max-width: none;
 }
 .media-left,
+.hystory-left,
 .media > .pull-left {
   padding-right: 11px;
 }
@@ -6534,14 +6593,18 @@ a.badge:focus {
 }
 .media-left,
 .media-right,
-.media-body {
+.media-body,
+.hystory-body, 
+.hystory-left {
   display: table-cell;
   vertical-align: top;
 }
 @media (max-width: 450px) {
   .media-left,
   .media-right,
-  .media-body {
+  .media-body,
+  .hystory-left, 
+  .hystory-body {
     display: block;
     width: 100%;
   }
