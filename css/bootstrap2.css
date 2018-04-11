@@ -1819,7 +1819,7 @@ em {
                      HEADER  Section
 =========================================================*/
 header {
-  background: #ffffff url(../images/page-1_img1-4.jpg) no-repeat;
+  background: #ffffff url(../images/page-1_img1-3.jpg) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -2621,7 +2621,7 @@ ol li a {
 
 .weare-list li a.yes:before {
   position: absolute;
-  content: '\f058'; 
+  content: '\f058';
   font-family: 'FontAwesome';
   font-size: 18px;
   color: #ff6b00;
@@ -2639,10 +2639,10 @@ ol li a {
 
 .weare-list li a.no::before {
   position: absolute;
-  content: '\f057'; /* \f05e */
+  content: '\f05e';
   font-family: 'FontAwesome';
   font-size: 18px;
-  color: #ff6b00;
+  color: #ff0000;
   left: 1px;
   top: 5px;
   -moz-transition: 0.2s;
