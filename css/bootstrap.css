@@ -2599,11 +2599,6 @@ ol li a {
   font-size: 14px;
 }
 
-.weare-list h5 {
-  color: #ffffff;
-  margin-bottom: 6px;
-  margin-top: 12px;
-}
 
 .normal-color{
   color: #8b8b8b;
@@ -2651,15 +2646,22 @@ ol li a {
   transition: 0.2s;
 }
 
-.weare-list li + li {
-  margin-top: -2.5px;
+
+.ti-moto-2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 6px;
+  margin-top: 22px;
+  letter-spacing: 1px;
 }
-.weare-list_mod {
-  margin-top: 34px;
-}
-.weare-list_mod + * {
-  margin-top: 20px;
-}
+
+
+
+
+
 
 
 /*================    What we do list     =================*/
@@ -5447,6 +5449,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:last-child > .btn-group {
   margin-left: -1px;
 }
+/* --- Navigation anchor for one page site --- 
+ Used on top of section.well (or well[X]) 
+ 72px - size of top menu nav bar */
+a.nav-anchor {
+  position: relative;
+  top: -72px;
+}
+
+/* --- end of Navigation anchor for one page site --- */
+
 .nav {
   margin-bottom: 0;
   padding-left: 0;
